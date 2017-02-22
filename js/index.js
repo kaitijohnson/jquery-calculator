@@ -9,7 +9,7 @@ function clear() {
   num2 = [];
   operand = null;
   solved = false;
-  $screen.html(0);
+  $screen.html('');
 }
 $(".numpad").click(function() {
   let input = $(this).html();
